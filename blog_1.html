@@ -16,6 +16,9 @@
         #herobody{
             padding: 15rem 1.5rem
         }
+        #herobody_2{
+            padding: 8rem 1.5rem
+        }
         .has-background-img_1 {
         background-image: url("https://images.pexels.com/photos/899330/pexels-photo-899330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
         background-size: cover;
@@ -24,14 +27,11 @@
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="container">
             <div class="navbar-brand">
                 <a class="navbar-item">
                     <i class="fas fa-place-of-worship fa-2x"></i>
-                </a>
-                <a class="navbar-item">
-                    <h1>US LANDMARK</h1>
                 </a>
                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                     <span aria-hidden="true"></span>
@@ -42,11 +42,13 @@
 
             <div id="navbarBasicExample" class="navbar-menu">
                 <div class="navbar-end">
+                    <a class="navbar-item" href="blog.html">
+                        Home
+                    </a>
                     <div class="navbar-item has-dropdown is-hoverable">
                         <a class="navbar-link">
                             States
                         </a>
-
                         <div class="navbar-dropdown">
                             <a class="navbar-item">
                                 Carolina
@@ -74,18 +76,38 @@
                             </a>
                         </div>
                     </div>
-
-                    <div class="navbar-item">
-                        <div class="buttons">
-                            <a class="button is-info">
-                                <strong>Buy Now</strong>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Place
+                        </a>
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item">
+                                The Statue of Liberty
                             </a>
+                            <a class="navbar-item">
+                                Hoover Dam
+                            </a>
+                            <a class="navbar-item">
+                                Golden Gate Bridge
+                            </a>
+                        </div>
+                    </div>
+                    <div class="navbar-item">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <input class="input" type="text" placeholder="Search">
+                            </div>
+                            <div class="control">
+                                <a class="button is-info">
+                                    Search
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 
     <section class="hero has-background-img_1">
         <div class="hero-body" id="herobody">
@@ -139,30 +161,30 @@
     <section class="hero">
         <div class="hero-body">
             <div class="container">
-                <div class="tags are-rounded are-medium is-centered">
-                    <span class="tag">The Statue of Liberty</span>
-                    <span class="tag">New York</span>
+                <div class="tags is-centered">
+                    <span class="tag is-medium is-rounded">The Statue of Liberty</span>
+                    <span class="tag is-medium is-rounded">New York</span>
                 </div>
             </div>
         </div>
     </section>
 
     <section class="hero is-light">
-        <div class="hero-body">
+        <div class="hero-body" id="herobody_2">
             <div class="container">
                 <div class="columns">
                     <div class="column">
                         <div class="card">
                             <div class="card-image">
                                 <figure class="image is-5by3">
-                                    <img src="https://images.pexels.com/photos/899330/pexels-photo-899330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                    <img src="https://images.pexels.com/photos/179078/pexels-photo-179078.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                                         alt="Placeholder image">
                                 </figure>
                             </div>
                             <br>
                             <div class="card-content">
                                 <p class="is-size-6">4 July, 2016</p>
-                                <p><a href="blog_1.html" class="title is-4">The Statue of Liberty, New York</a></p>
+                                <p><a href="blog_1.html" class="title is-4">Hoover Dam</a></p>
                             </div>
                         </div>
                     </div>
@@ -170,14 +192,14 @@
                         <div class="card">
                             <div class="card-image">
                                 <figure class="image is-5by3">
-                                    <img src="https://images.pexels.com/photos/899330/pexels-photo-899330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                    <img src="https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                                         alt="Placeholder image">
                                 </figure>
                             </div>
                             <br>
                             <div class="card-content">
                                 <p class="is-size-6">4 July, 2016</p>
-                                <p><a href="blog_1.html" class="title is-4">The Statue of Liberty, New York</a></p>
+                                <p><a href="blog_1.html" class="title is-4">Golden Gate Bridge</a></p>
                             </div>
                         </div>
                     </div>
@@ -185,14 +207,14 @@
                         <div class="card">
                             <div class="card-image">
                                 <figure class="image is-5by3">
-                                    <img src="https://images.pexels.com/photos/899330/pexels-photo-899330.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                    <img src="https://images.pexels.com/photos/34223/mont-saint-michel-france-normandy-europe.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
                                         alt="Placeholder image">
                                 </figure>
                             </div>
                             <br>
                             <div class="card-content">
                                 <p class="is-size-6">4 July, 2016</p>
-                                <p><a href="blog_1.html" class="title is-4">The Statue of Liberty, New York</a></p>
+                                <p><a href="blog_1.html" class="title is-4">Fort Sumter</a></p>
                             </div>
                         </div>
                     </div>
@@ -220,30 +242,33 @@
             </div>
     </section>
 
-
     <section class="section">
         <div class="container">
             <div class="columns">
                 <div class="column">
-                    <strong>About</strong><br>
-                    About<br>
-                    Services<br>
-                    Careers
+                    <p class="has-text-weight-bold">STUDENT LIST</p>
+                    Chanapohn<br> Judsri<br>
+                    59160050
                 </div>
                 <div class="column">
-                    <strong>Account</strong><br>
-                    Account<br>
-                    My tasks<br>
-                    Projects
+                    <p class="has-text-weight-bold">STUDENT LIST</p>
+                    Patcharawan<br> Puengpiboon<br>
+                    59160498
                 </div>
                 <div class="column">
-                    <strong>Resources</strong><br>
-                    Help<br>
-                    Terms<br>
-                    Privacy
+                    <p class="has-text-weight-bold">STUDENT LIST</p>
+                    Anchalee<br> Phonthai<br>
+                    59160921
                 </div>
                 <div class="column">
-                    <strong>We are driven to deliver results for all your businesses.</strong>
+                    <p class="has-text-weight-bold">STUDENT LIST</p>
+                    Natarika<br> Pooeim<br>
+                    59161157
+                </div>
+                <div class="column">
+                    <p class="has-text-weight-bold">STUDENT LIST</p>
+                    Tanwarat<br> Srimak<br>
+                    59161161
                 </div>
             </div>
         </div>
@@ -252,7 +277,8 @@
     <footer class="footer">
         <div class="content has-text-centered">
             <p>
-                © Front. 2018 Htmlstream. All rights reserved.
+                <i class="fas fa-place-of-worship fa-2x"></i><br>
+                American Landmarks. 2018 Web Design & Development, 88737559 Group 2
             </p>
         </div>
     </footer>
